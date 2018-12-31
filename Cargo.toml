@@ -3,5 +3,11 @@ name = "kvs-sys"
 version = "0.1.0"
 authors = ["Mason Stallmo <masonstallmo@gmail.com>"]
 edition = "2018"
+links = "producer"
+build = "build.rs"
 
 [dependencies]
+
+
+[build-dependencies]
+bindgen = "0.46.0"
